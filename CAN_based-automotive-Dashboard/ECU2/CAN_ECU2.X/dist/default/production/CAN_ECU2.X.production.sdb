@@ -1,0 +1,388 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"23 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\can.c
+[e E10492 _CanOpMode `uc
+e_can_op_mode_normal 0
+e_can_op_mode_loop 64
+e_can_op_mode_config 128
+]
+"22 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\ecu2_sensor.c
+[e E10483 . `uc
+e_ind_off 0
+e_ind_left 1
+e_ind_right 2
+]
+"4 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\ADC.c
+[v _init_adc init_adc `(v  1 e 1 0 ]
+"43
+[v _read_adc read_adc `(us  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"16 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+"48
+[v _get_msg_id_std get_msg_id_std `(us  1 s 2 get_msg_id_std ]
+"55
+[v _set_msg_id_std set_msg_id_std `(v  1 s 1 set_msg_id_std ]
+"63
+[v _can_transmit can_transmit `(v  1 e 1 0 ]
+"4 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\DIGITAL_KEYPAD.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+"9
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+"41 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\ecu2_main.c
+[v _init_config init_config `(v  1 e 1 0 ]
+"55
+[v _get_ssd get_ssd `(v  1 e 1 0 ]
+"71
+[v _main main `(v  1 e 1 0 ]
+"4 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\timer0.c
+[v _init_timer0 init_timer0 `(v  1 e 1 0 ]
+"50 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\uart.c
+[v _putch putch `(v  1 e 1 0 ]
+"71
+[v _getch getch `(uc  1 e 1 0 ]
+"4422 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc/pic18f4580.h
+[v _RXFCON0 RXFCON0 `VEuc  1 e 1 @3540 ]
+"20963
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3905 ]
+"21075
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3906 ]
+"21167
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3907 ]
+"21279
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3908 ]
+"21391
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3909 ]
+"21469
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3910 ]
+"23528
+[v _RXB0CON RXB0CON `VEuc  1 e 1 @3936 ]
+"23721
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"23833
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"24159
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"24274
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"24770
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"24879
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"24983
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3952 ]
+"25045
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3953 ]
+"25116
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3954 ]
+"25434
+[v _ECANCON ECANCON `VEuc  1 e 1 @3959 ]
+"25505
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"25714
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"25888
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"26058
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"26837
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"27059
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"27281
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"27503
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"29245
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"29257
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"29269
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"30273
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"30399
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"30406
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"31712
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"32490
+[v _ACQT0 ACQT0 `VEb  1 e 0 @32259 ]
+"32493
+[v _ACQT1 ACQT1 `VEb  1 e 0 @32260 ]
+"32496
+[v _ACQT2 ACQT2 `VEb  1 e 0 @32261 ]
+"32499
+[v _ADCS0 ADCS0 `VEb  1 e 0 @32256 ]
+"32502
+[v _ADCS1 ADCS1 `VEb  1 e 0 @32257 ]
+"32505
+[v _ADCS2 ADCS2 `VEb  1 e 0 @32258 ]
+"32514
+[v _ADFM ADFM `VEb  1 e 0 @32263 ]
+"32526
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"34752
+[v _BRG16 BRG16 `VEb  1 e 0 @32195 ]
+"34755
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"34914
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"35487
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"35499
+[v _GO GO `VEb  1 e 0 @32273 ]
+"35502
+[v _GODONE GODONE `VEb  1 e 0 @32273 ]
+"36081
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"36117
+[v _PSA PSA `VEb  1 e 0 @32427 ]
+"36279
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"36372
+[v _RX9 RX9 `VEb  1 e 0 @32094 ]
+"36660
+[v _RXB0FUL RXB0FUL `VEb  1 e 0 @31495 ]
+"36666
+[v _RXB0IF RXB0IF `VEb  1 e 0 @32032 ]
+"38859
+[v _SENDB SENDB `VEb  1 e 0 @32099 ]
+"38880
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"38958
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"38964
+[v _T08BIT T08BIT `VEb  1 e 0 @32430 ]
+"38970
+[v _T0CS T0CS `VEb  1 e 0 @32429 ]
+"39093
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"39096
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"39102
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"39180
+[v _TRISB2 TRISB2 `VEb  1 e 0 @31898 ]
+"39183
+[v _TRISB3 TRISB3 `VEb  1 e 0 @31899 ]
+"39216
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"39219
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"39303
+[v _TX9 TX9 `VEb  1 e 0 @32102 ]
+"39600
+[v _TXB0REQ TXB0REQ `VEb  1 e 0 @31235 ]
+"40326
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"40335
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"40350
+[v _VCFG0 VCFG0 `VEb  1 e 0 @32268 ]
+"40356
+[v _VCFG1 VCFG1 `VEb  1 e 0 @32269 ]
+"18 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\ecu2_main.c
+[v _rpm rpm `ui  1 e 2 0 ]
+"19
+[v _key key `uc  1 e 1 0 ]
+"22
+[v _ssd ssd `[4]uc  1 s 4 ssd ]
+"23
+[v _blink_counter blink_counter `ui  1 e 2 0 ]
+"34
+[v _flag flag `[3]uc  1 e 3 0 ]
+"71
+[v _main main `(v  1 e 1 0 ]
+{
+"73
+[v main@adc_value adc_value `ui  1 a 2 49 ]
+"122
+} 0
+"9 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\DIGITAL_KEYPAD.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+{
+[v read_digital_keypad@detection_type detection_type `uc  1 p 1 wreg ]
+[v read_digital_keypad@detection_type detection_type `uc  1 p 1 wreg ]
+"11
+[v read_digital_keypad@once once `uc  1 s 1 once ]
+"13
+[v read_digital_keypad@detection_type detection_type `uc  1 p 1 0 ]
+"32
+} 0
+"43 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\ADC.c
+[v _read_adc read_adc `(us  1 e 2 0 ]
+{
+[v read_adc@channel channel `uc  1 p 1 wreg ]
+"45
+[v read_adc@reg_val reg_val `us  1 a 2 4 ]
+"43
+[v read_adc@channel channel `uc  1 p 1 wreg ]
+"48
+[v read_adc@channel channel `uc  1 p 1 6 ]
+"56
+} 0
+"41 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\ecu2_main.c
+[v _init_config init_config `(v  1 e 1 0 ]
+{
+"54
+} 0
+"4 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\timer0.c
+[v _init_timer0 init_timer0 `(v  1 e 1 0 ]
+{
+"30
+} 0
+"4 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\DIGITAL_KEYPAD.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+{
+"7
+} 0
+"16 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+{
+"46
+} 0
+"4 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\ADC.c
+[v _init_adc init_adc `(v  1 e 1 0 ]
+{
+"41
+} 0
+"55 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\ecu2_main.c
+[v _get_ssd get_ssd `(v  1 e 1 0 ]
+{
+[v get_ssd@rpm rpm `ui  1 p 2 15 ]
+"69
+} 0
+"63 C:\Users\admin\Desktop\MC Module\Assignment\CAN_ECU2.X\can.c
+[v _can_transmit can_transmit `(v  1 e 1 0 ]
+{
+"79
+[v can_transmit@i i `i  1 a 2 13 ]
+"65
+[v can_transmit@ptr ptr `*.39uc  1 a 2 11 ]
+"63
+[v can_transmit@msg_id msg_id `us  1 p 2 4 ]
+[v can_transmit@data data `*.30Cuc  1 p 1 6 ]
+[v can_transmit@len len `uc  1 p 1 7 ]
+"83
+} 0
+"55
+[v _set_msg_id_std set_msg_id_std `(v  1 s 1 set_msg_id_std ]
+{
+[v set_msg_id_std@id id `ui  1 p 2 0 ]
+"59
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 9 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 p 1 8 ]
+"44
+} 0
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 48 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 47 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 39 ]
+"70
+} 0
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 33 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 26 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 31 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 38 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 37 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 30 ]
+"11
+[v ___fldiv@b b `d  1 p 4 14 ]
+[v ___fldiv@a a `d  1 p 4 18 ]
+"185
+} 0
